@@ -21,6 +21,10 @@ dependencies {
     compile 'com.osbcp.cssparser:cssparser:1.5'
 }
 
+defaultConfig {
+    multiDexEnabled true
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
